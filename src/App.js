@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './lib/footer'
 import Navbar from './lib/navbar'
 import Tip from './lib/tip'
-
+import './App.css'
 export default function App() {
   return (
   <>

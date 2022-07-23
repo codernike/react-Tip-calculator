@@ -2,17 +2,23 @@ body {
     font-family: sans-serif;
     text-align: center;
     background-color: rgb(10, 212, 239);
-    border-radius: 25px;
+ 
   
   }
   .tipcalc{
-      width: 300px;
+      
+
   }
   div.content {
     background-color: white;
     border-radius: 25px;
+    min-width: 300px;
+      max-width: 350px;
   }
-  
+  p{
+    margin-top: 15px;
+  }
+
   h1 {
     background-color: rgb(63, 9, 9);
     color: white;
@@ -25,20 +31,31 @@ body {
   }
   
   button {
-    margin-top: 10px;
+   margin-top: 15px;
     margin-bottom: 10px;
     height: 35px;
     width: 125px;
     font-weight: bold;
     color: white;
-    background-color: rgb(165, 31, 71);
+    background-color: rgb(10, 118, 235);
+    border: transparent 2px solid;
   }
-  
+  button:hover{
+    color: blue;
+    background-color: white;
+  }
+  input{
+    max-width: 300px;
+    min-width: 200px;
+    padding: 7px;
+    margin-top: 15px;
+  }
   select {
-    height: 50px;
-    width: 200px;
-    padding-left: 25px;
+    max-width: 120px ;
+    min-width: 100px;
     margin-top: 10px;
+    padding: 7px;
+    margin-top: 15px;
   }
   
   div.tipResults {
